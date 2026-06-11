@@ -37,6 +37,7 @@ num = [1,2,3,4,5,6]
 t = 4 #0 1 2
 print(subset(num,t))
 '''
+'''
 def sum(num,t):
     i = 0 
     j = len(num)-1
@@ -50,4 +51,5 @@ def sum(num,t):
             j = j -1
 num = [1,2,3,4,5,6,7,8]
 t = 15
-print(sum(num,t))                
+print(sum(num,t))   
+'''             
